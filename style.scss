@@ -1,4 +1,4 @@
-:root {
+:root{
   --primary-color: #ff5634;
 }
 
@@ -6,44 +6,38 @@
   display: none;
 }
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+body{
   font-family: Metropolis, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.667em;
 }
-
-nav {
-  box-shadow: 0 3px 12px rgba(18, 18, 18, 0.06);
+nav{
+  box-shadow: 0 3px 12px rgba(18, 18, 18, .06);
 }
-
-p {
+p{
   color: #656565;
 }
 
-ul {
+ul{
   list-style: none;
 }
-
-.nav-link {
+.nav-link{
   color: black !important;
 }
-
-.active {
+.active{
   color: var(--primary-color) !important;
 }
-
-.journey-para {
+.journey-para{
   margin-right: 30%;
 }
-
-.btn-register {
+.btn-register{
   color: white;
   background-color: var(--primary-color);
   border-radius: 12px;
@@ -51,9 +45,9 @@ ul {
   font-size: 16px;
   line-height: 1.125em;
   border: 1px solid var(--primary-color);
+ 
 }
-
-.our-journey-btn {
+.our-journey-btn{
   color: white;
   background-color: var(--primary-color);
   border-radius: 16px;
@@ -64,47 +58,40 @@ ul {
   font-weight: 700;
 }
 
-.btn-download-app {
+.btn-download-app{
   border-radius: 12px;
   padding: 15px 15px;
   font-size: 16px;
   background-color: transparent;
   border: 1px solid #ededed;
 }
-
-.delivery-guy {
+.delivery-guy{
   width: 550px;
   height: 550px;
 }
-
-h5 {
+h5{
   text-transform: uppercase;
   font-size: 18px;
   color: var(--primary-color);
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: .06em;
 }
-
-.about-us-heading {
+.about-us-heading{
   margin-right: 84%;
 }
-
-.our-mission-heading {
+.our-mission-heading{
   margin-right: 79%;
 }
-
-.our-mission-paragraph {
+.our-mission-paragraph{
   width: 70%;
   margin-right: 30%;
 }
-
-.stats {
+.stats{
   font-size: 56px;
   font-weight: 700;
   line-height: 1.179em;
 }
-
-.bold {
+.bold{
   color: black;
   margin-top: 0;
   margin-bottom: 16px;
@@ -112,92 +99,79 @@ h5 {
   font-weight: 700;
   line-height: 1.227em;
 }
-
-.orange {
+.orange{
   color: var(--primary-color);
 }
-
-.delivery-guy-smiling {
+.delivery-guy-smiling{
   border-radius: 5%;
   width: 489px;
   height: 588px;
 }
-
-.Cellphone {
+.Cellphone{
   border-radius: 5%;
-  width: 586px;
-  height: 730px;
+ width: 586px;
+ height: 730px;
 }
-
-.download-app {
+.download-app{
   background-color: var(--primary-color);
   color: white;
 }
-
-.scrollable-div {
-  height: 510px;
+.scrollable-div{
+  height: 510px; 
   overflow: auto;
+ 
 }
 
-.read-more {
+.read-more{
   color: var(--primary-color);
 }
 
-.time-line {
+.time-line{
   border: 1px solid #ededed;
   background-color: #ffffff;
-  box-shadow: 0 2px 12px 0 rgba(16, 16, 16, 0.08);
+  box-shadow: 0 2px 12px 0 rgb(16, 16, 16, 0.08);
   border-radius: 24px;
   padding: 60px 53px;
   margin: 10px;
   margin: 40px;
 }
-
-.timeline-heading {
+.timeline-heading{
   font-size: 24px;
   color: black;
   font-weight: 700;
   line-height: 1.417em;
 }
-
-footer {
-  display: block;
-}
-
-.partners-div {
+footer{display: block;}
+.partners-div{
   margin-left: 25%;
   width: 50%;
 }
-
-.press-desc {
+.press-desc{
   width: 40%;
   margin-left: 30%;
 }
-
-.company-card {
+.company-card{
   border: 1px solid #ededed;
   background-color: #ffffff;
-  box-shadow: 0 2px 12px 0 rgba(16, 16, 16, 0.08);
+  box-shadow: 0 2px 12px 0 rgb(16, 16, 16, 0.08);
   border-radius: 24px;
   padding: 80px 73px;
   margin: 10px;
+  
 }
-
-.company-desc {
+.company-desc{
   color: #121212;
   font-size: 28px;
   font-weight: 700;
   line-height: 1.429em;
   margin-right: 90px !important;
 }
-
-.footer {
+.footer{
   border-bottom: 1px solid #cacaca;
   padding-top: 70px;
   padding-bottom: 83px;
 }
-
-.download-app-device {
+.download-app-device{
   padding: 20px 20px 20px 15px;
   border-radius: 14px;
   font-size: 16px;
@@ -212,33 +186,30 @@ footer {
   height: 65px;
 }
 
-.menu-list {
+.menu-list{
   max-width: 230px;
 }
-
-h3 {
+h3{
   font-size: 24px;
   color: black;
   font-weight: 700;
   line-height: 1.417em;
 }
 
-.footer-links {
+.footer-links{
   color: #656565;
   font-size: 18px;
   line-height: 1.111em;
   margin: 18px;
 }
-
-.browse {
+.browse{
   border-bottom: 3px solid var(--primary-color);
   padding-bottom: 6px;
   font-weight: 700;
   display: inline-block;
   text-decoration: none;
 }
-
-.browse:hover {
+.browse:hover{
   border-bottom: 3px solid #121212;
-  color: #121212 !important;
-}/*# sourceMappingURL=style.css.map */
+color: #121212 !important;
+}
