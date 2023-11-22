@@ -80,3 +80,21 @@ h5{
     width: 489px;
     height: 588px;
 }
+.Cellphone{
+    border-radius: 5%;
+   width: 586px;
+   height: 730px;
+}
+.download-app{
+    background-color: var(--primary-color);
+    color: white;
+}
+.scrollable-div{
+    height: 510px; 
+    overflow: auto;
+}
+
+.read-more{
+    color: var(--primary-color);
+}
+footer{display: block;}
