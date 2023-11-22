@@ -19,6 +19,9 @@
     font-weight: 400;
     line-height: 1.667em;
   }
+  nav{
+    box-shadow: 0 3px 12px rgba(18, 18, 18, .06);
+  }
   p{
     color: #656565;
   }
@@ -26,27 +29,42 @@
 ul{
     list-style: none;
 }
-/* .nav-link{
-   color: rgb(18, 18, 18);
-   font-size: 16px;
-    font-weight: 500;
-    line-height: 1.125em;
-} */
+.nav-link{
+    color: black !important;
+}
+.active{
+    color: var(--primary-color) !important;
+}
+.journey-para{
+    margin-right: 30%;
+}
 .btn-register{
     color: white;
     background-color: var(--primary-color);
     border-radius: 12px;
-    padding: 18px 24px;
+    padding: 15px 20px;
     font-size: 16px;
     line-height: 1.125em;
-    border: 1px solid var(--primary-color)
+    border: 1px solid var(--primary-color);
+   
+}
+.our-journey-btn{
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    padding: 26px 38px;
+    font-size: 16px;
+    line-height: 1.111em;
+    border: 1px solid var(--primary-color);
+    font-weight: 700;
 }
 
 .btn-download-app{
     border-radius: 12px;
-    padding: 18px 24px;
+    padding: 15px 15px;
     font-size: 16px;
     background-color: transparent;
+    border: 1px solid #ededed;
 }
 .delivery-guy{
     width: 550px;
@@ -59,6 +77,16 @@ h5{
     font-weight: 700;
     letter-spacing: .06em;
 }
+.about-us-heading{
+    margin-right: 84%;
+}
+.our-mission-heading{
+    margin-right: 79%;
+}
+.our-mission-paragraph{
+    width: 70%;
+    margin-right: 30%;
+}
 .stats{
     font-size: 56px;
     font-weight: 700;
@@ -68,9 +96,9 @@ h5{
     color: black;
     margin-top: 0;
     margin-bottom: 16px;
-    font-size: 62px;
+    font-size: 44px;
     font-weight: 700;
-    line-height: 1.161em;
+    line-height: 1.227em;
 }
 .orange{
     color: var(--primary-color);
@@ -92,9 +120,86 @@ h5{
 .scrollable-div{
     height: 510px; 
     overflow: auto;
+   
 }
 
 .read-more{
     color: var(--primary-color);
 }
+
+.time-line{
+    border: 1px solid #ededed;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px 0 rgb(16, 16, 16, 0.08);
+    border-radius: 24px;
+    padding: 60px 53px;
+    margin: 10px;
+    margin: 40px;
+}
+.timeline-heading{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.417em;
+}
 footer{display: block;}
+.partners-div{
+    margin-left: 25%;
+    width: 50%;
+}
+.press-desc{
+    width: 40%;
+    margin-left: 30%;
+}
+.company-card{
+    border: 1px solid #ededed;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px 0 rgb(16, 16, 16, 0.08);
+    border-radius: 24px;
+    padding: 80px 73px;
+    margin: 10px;
+    
+}
+.company-desc{
+    color: #121212;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.429em;
+    margin-right: 90px !important;
+}
+.footer{
+    border-bottom: 1px solid #cacaca;
+    padding-top: 70px;
+    padding-bottom: 83px;
+}
+.download-app-device{
+    padding: 20px 20px 20px 15px;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 1.375em;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight: 700;
+    height: 65px;
+}
+
+.menu-list{
+    max-width: 230px;
+}
+h3{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.417em;
+}
+
+.footer-links{
+    color: #656565;
+    font-size: 18px;
+    line-height: 1.111em;
+    margin: 18px;
+}
