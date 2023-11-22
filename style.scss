@@ -20,6 +20,12 @@ body{
 }
 nav{
   box-shadow: 0 3px 12px rgba(18, 18, 18, .06);
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.about-del-div{
+  opacity: 0;
+  // transform: translateY(-100%);
 }
 p{
   color: #656565;
@@ -45,7 +51,10 @@ ul{
   font-size: 16px;
   line-height: 1.125em;
   border: 1px solid var(--primary-color);
- 
+  transition: color .3s, background-color .3s, border-color .3s;
+}
+.btn-register:hover{
+  background-color: #e13f1f;
 }
 .our-journey-btn{
   color: white;
@@ -56,19 +65,53 @@ ul{
   line-height: 1.111em;
   border: 1px solid var(--primary-color);
   font-weight: 700;
+  transition: color .3s, background-color .3s, border-color .3s;
+}
+.our-journey-btn:hover{
+  background-color: #e13f1f;
 }
 
 .btn-download-app{
   border-radius: 12px;
-  padding: 15px 15px;
+  padding: 15px 20px;
   font-size: 16px;
+  line-height: 1.125em;
   background-color: transparent;
   border: 1px solid #ededed;
+  transition: color .3s, background-color .3s, border-color .3s;
+}
+.btn-download-app:hover{
+  background-color: var(--primary-color);
+  color: white;
+}
+.statistics{
+margin-top: 350px !important;
+margin-bottom: 250px !important;
 }
 .delivery-guy{
   width: 550px;
   height: 550px;
+  position: absolute;
+  z-index: 1;
 }
+
+.burger{
+  position: relative;
+  width: 250.44px;
+  height: 278.96px;
+  border-radius: 25px;
+  z-index: 2;
+  top :190px;
+    
+}
+.delivery{
+  position: relative;
+  z-index: 2;
+  border-radius: 24px;
+  top :350px;
+  left: 40px;
+}
+
 h5{
   text-transform: uppercase;
   font-size: 18px;
@@ -98,6 +141,7 @@ h5{
   font-size: 44px;
   font-weight: 700;
   line-height: 1.227em;
+  
 }
 .orange{
   color: var(--primary-color);
@@ -134,6 +178,7 @@ h5{
   padding: 60px 53px;
   margin: 10px;
   margin: 40px;
+  
 }
 .timeline-heading{
   font-size: 24px;
@@ -157,7 +202,13 @@ footer{display: block;}
   border-radius: 24px;
   padding: 80px 73px;
   margin: 10px;
-  
+  transform-style: preserve-3d;
+    transition: box-shadow .3s, transform .3s;
+}
+.company-card:hover{
+  box-shadow: 0 6px 24px 0 rgb(16, 16, 16, 0.14);
+  color: #656565;
+  transform: translate3d(0, -5px, 0.01px);
 }
 .company-desc{
   color: #121212;
@@ -184,8 +235,11 @@ footer{display: block;}
   margin: 10px;
   font-weight: 700;
   height: 65px;
+  transition: color .3s, background-color .3s, border-color .3s;
 }
-
+.download-app-device:hover{
+  background-color: #e13f1f;
+}
 .menu-list{
   max-width: 230px;
 }
@@ -212,4 +266,9 @@ h3{
 .browse:hover{
   border-bottom: 3px solid #121212;
 color: #121212 !important;
+}
+h4{
+  font-size: 18px;
+    font-weight: 700;
+    line-height: 1.333em;
 }
